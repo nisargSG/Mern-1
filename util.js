@@ -8,7 +8,6 @@ const util = {}
 //2->warning - yellow
 //3->error - red
 
-
 util.logSignPicker = {
     0: "[*]",
     1: "[+]",
