@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        include common/bootstrap.pug
+        
+        title Document
+    body
+        .card.w-50.m-4.p-4
+            h1 Login Form
+            .card-body
+                img(src="img/sample.png", width="128px", height="128px" ).mb-3
+                .form-floating.mb-3
+                    input.form-control(type='email', id='ETX_EMAIL', placeholder='name@example.com')
+                    label(for='ETX_EMAIL') Email address
+
+                .form-floating.mb-3
+                    input.form-control(type='password', id='ETX_PASSWORD', placeholder='Password')
+                    label(for='ETX_PASSWORD') Password
+
+                button(id="BTN_LOGIN").btn.btn-primary Login
+        script(src='js/index.js')
+        
